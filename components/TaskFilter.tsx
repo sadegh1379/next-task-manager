@@ -30,7 +30,7 @@ const TaskFilter = ({ status, setStatus, search, setSearch }: TProp) => {
         </label>
         <input
           className="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker"
-          placeholder="Add Description"
+          placeholder="search..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
