@@ -104,7 +104,7 @@ const Tasks: FC = () => {
 
   const taskData = activeFilter ? filteredTasks : tasks;
   return (
-    <div className="h-100 w-full flex items-center justify-center bg-teal-lightest font-sans">
+    <div className="h-100 mx-5 lg:mx-16 flex items-center justify-center bg-teal-lightest font-sans">
       <div className="bg-white rounded shadow p-6 w-full m-10">
         <div className="mb-4">
           <h1 className="text-grey-darkest">Todo List</h1>

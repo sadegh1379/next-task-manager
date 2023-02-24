@@ -19,30 +19,6 @@ const INITIAL_STATE: TState = {
       isCompleted: true,
       id: "2",
     },
-    {
-      title: "sadegh",
-      description: "sadegh description",
-      isCompleted: false,
-      id: "3",
-    },
-    {
-      title: "ali",
-      description: "ali description",
-      isCompleted: true,
-      id: "4",
-    },
-    {
-      title: "sadegh",
-      description: "sadegh description",
-      isCompleted: false,
-      id: "5",
-    },
-    {
-      title: "ali",
-      description: "ali description",
-      isCompleted: true,
-      id: "6",
-    },
   ],
   filteredTasks: [],
 };

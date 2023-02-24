@@ -60,15 +60,15 @@ const TaskCard = ({
       key={task.id}
       className={`flex mb-4 items-center border-2 border-orange-400 rounded-md my-1 p-3`}
     >
-      <p className="w-full text-gray-800 font-semibold">{task.title}</p>
+      <div className="w-full">
+        <p className="w-full text-gray-800 font-semibold">{task.title}</p>
+        <p className="w-full text-gray-800 text-sm">{task.description}</p>
+      </div>
+
       {!task.isCompleted ? (
-        <p className="flex whitespace-nowrap">
-          In progress
-        </p>
+        <p className="flex whitespace-nowrap">In progress</p>
       ) : (
-        <p>
-          Completed
-        </p>
+        <p>Completed</p>
       )}
       {task.isCompleted ? (
         <button
