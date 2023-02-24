@@ -60,7 +60,7 @@ const TaskCard = ({
       key={task.id}
       className={`flex flex-wrap gap-3 lg:gap-0 mb-4 items-center justify-center border-2 border-orange-400 rounded-md my-1 p-3`}
     >
-      <div className="flex-1 bg-red-300">
+      <div className="flex-1">
         <p className="w-full text-gray-800 font-semibold">{task.title}</p>
         <p className="w-full text-gray-800 text-sm">{task.description}</p>
       </div>
